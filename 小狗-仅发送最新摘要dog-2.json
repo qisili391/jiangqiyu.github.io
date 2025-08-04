@@ -1,0 +1,17 @@
+{
+    "id": "36e55912-4104-4e17-8a9a-75f4f1277fc9",
+    "scriptName": "小狗-仅发送最新摘要dog",
+    "findRegex": "/[\\s\\S]*?<dog>([\\s\\S]*?)<\\/dog>([\\s\\S]*)/gm",
+    "replaceString": "<!--\n<dog>$1</dog>\n-->",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 6,
+    "maxDepth": null
+}

@@ -1,0 +1,17 @@
+{
+    "id": "85b3fa44-3ff4-456a-844d-7e57816de793",
+    "scriptName": "小狗-user消息添加tag",
+    "findRegex": "^([\\s\\S]*)$",
+    "replaceString": "<user_input>\n$1\n</user_input>",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 1
+}

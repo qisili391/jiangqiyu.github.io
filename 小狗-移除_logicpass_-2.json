@@ -1,0 +1,17 @@
+{
+    "id": "27a2f0a2-93ea-4473-9eec-453a4c665255",
+    "scriptName": "小狗-移除<logicpass>",
+    "findRegex": "/<logicpass>[\\s\\S]*?<\\/logicpass>\\n?/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

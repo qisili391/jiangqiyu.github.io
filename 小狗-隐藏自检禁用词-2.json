@@ -1,0 +1,18 @@
+{
+    "id": "cfe0b2ce-492b-4902-a290-bbd95105bcf0",
+    "scriptName": "小狗-隐藏自检禁用词",
+    "findRegex": "<!-- audit_start(\\d+):[\\s\\S]*?<!-- audit_result\\1: 禁词与中文检测=FAIL -->[\\s\\S]*?<!-- audit_comment\\1: [\\s\\S]*?-->\\s*【检测未通过，自动回炉重写本段】\\s*",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

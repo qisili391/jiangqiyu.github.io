@@ -1,0 +1,17 @@
+{
+    "id": "29a52eed-b67f-4e0c-bc01-0e5fe41bd366",
+    "scriptName": "小狗-移除免责声明",
+    "findRegex": "/<disclaimer>[\\s\\S]*?</disclaimer>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}
